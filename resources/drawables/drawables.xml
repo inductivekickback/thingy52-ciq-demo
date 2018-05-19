@@ -1,0 +1,5 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.gif" dithering="none" />
+    <bitmap id="nextArrow" filename="next_arrow.png" />
+    <bitmap id="previousArrow" filename="previous_arrow.png" />
+</drawables>

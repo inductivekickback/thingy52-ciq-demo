@@ -1,0 +1,20 @@
+<resources>
+<layouts>
+<layout id="MainLayout">
+	<bitmap id="ThingyIcon" filename="images/thingy_icon.gif" x="42" y="45" dithering="none" />
+    <label x="149" y="57" text="@Strings.AppTitle" font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label x="center" y="center" text="@Strings.ScanSplash" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+</layout>
+<layout id="SensorLayout">
+	<bitmap id="TemperatureIcon" filename="images/temp_icon.gif" x="45" y="40" dithering="none" />
+    <label id="TemperatureValue" x="158" y="40" text="   - -   " font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+    <label x="167" y="40" text="°C" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+   	<bitmap id="HumidityIcon" filename="images/humidity_icon.gif" x="45" y="95" dithering="none" />
+    <label id="HumidityValue" x="158" y="95" text="   - -   " font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+    <label x="167" y="95" text="%" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+   	<bitmap id="BatteryIcon" filename="images/battery_icon.gif" x="45" y="150" dithering="none" />
+    <label id="BatteryValue" x="158" y="150" text="   - -   " font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+    <label x="167" y="150" text="V" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+</layout>
+</layouts>
+</resources>
