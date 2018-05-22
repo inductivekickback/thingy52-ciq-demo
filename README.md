@@ -2,6 +2,8 @@ A simple [Connect IQ](https://developer.garmin.com/connect-iq/what-you-can-build
 
 <img src="https://user-images.githubusercontent.com/6494431/40264613-d6acbe10-5adc-11e8-8881-54a4692570c5.png" width="168" height="284">
 
+<img src="https://user-images.githubusercontent.com/6494431/40390556-7fd59378-5dca-11e8-8a57-aec3a398c11f.png" width="168" height="284">
+
 ### Features
 The application consists of a simple GUI that allows the user to scan for devices running the ANT version of the Thingy:52 firmware, display a Thingy's sensor data, and set the color of a Thingy's LED.
 
